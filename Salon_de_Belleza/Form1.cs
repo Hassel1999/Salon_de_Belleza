@@ -16,5 +16,33 @@ namespace Salon_de_Belleza
         {
             InitializeComponent();
         }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void btnIngresar_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void btnIngresar_Click_1(object sender, EventArgs e)
+        {
+        }
+
+        private void btnSalir_Click_1(object sender, EventArgs e)
+        {
+        }
+
+        private void btnIngresar_Click_2(object sender, EventArgs e)
+        {
+            frmInicio inicio = new frmInicio();
+            inicio.ShowDialog();
+            this.Close();
+        }
+
+        private void btnSalir_Click_2(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
